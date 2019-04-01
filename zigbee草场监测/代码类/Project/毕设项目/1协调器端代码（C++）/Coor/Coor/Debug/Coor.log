@@ -1,0 +1,14 @@
+﻿  Coor.cpp
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(70): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(205): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(500): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(545): warning C4800: “unsigned char”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(556): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(557): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(569): warning C4800: “unsigned char”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(581): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(582): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+d:\实验室\项目\zigbee草场监测\代码类\project\毕设项目\1协调器端代码（c++）\coor\coor\coor.cpp(141): warning C4715: “checkSituaes”: 不是所有的控件路径都返回值
+aes128.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Coor.vcxproj -> D:\实验室\项目\zigbee草场监测\代码类\Project\毕设项目\1协调器端代码（C++）\Coor\Debug\Coor.exe
+  Coor.vcxproj -> D:\实验室\项目\zigbee草场监测\代码类\Project\毕设项目\1协调器端代码（C++）\Coor\Debug\Coor.pdb (Full PDB)

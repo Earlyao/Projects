@@ -1,0 +1,95 @@
+
+<ApplicationBuild Header="project" Extern=".\project.rapp" Path=".\project.rapp" OutputFile=".\Debug\project.aof" sate="96" >
+	<Group Header="Source Files" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path="..\main.c" Header="main.c" Marker="0" OutputFile=".\Debug\main.obj" sate="2" >
+			<Options>
+				<Config Header="Standard" >
+					<Set Header="RCST7" >
+						<Section Header="CodeGen" >
+							<Property Header="UNSIGNEDCHAR" Value="" Removable="1" />
+							<Property Header="ENUMTYPE" Value="ET(INT)" Removable="1" />
+																																																																																																				
+						</Section>
+																																																																																				
+					</Set>
+					<Set Header="Target" >
+						<Section Header="ToolSetST7" >
+							<Property Header="ArelocInfo" Value="" Removable="1" />
+									
+						</Section>
+							
+					</Set>
+				</Config>
+			</Options>
+																																			
+		</NodeC>
+		<NodeC Path="..\stm8l10x_it.c" Header="stm8l10x_it.c" Marker="-1" OutputFile=".\Debug\stm8l10x_it.obj" sate="0" />
+																					
+	</Group>
+	<Group Header="StdPeriph_Lib" Marker="-1" OutputFile="" sate="0" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ST7" />
+																																																																						
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="$(ApplicationDir)\..;$(ApplicationDir)\..\..\..\Libraries\STM8L10x_StdPeriph_Driver\inc;$(ApplicationDir)\..\..\..\Utilities\STM8L1x-EVAL;$(RkitInc);$(RkitInc)\ST7" Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\Debug" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\Debug" Removable="1" />
+																																																													
+				</Section>
+																																															
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorST7" >
+					<Property Header="Processor" Value="STM8L101K3" Removable="1" />
+																																																																						
+				</Section>
+				<Section Header="ToolSetST7" >
+					<Property Header="BuildToolSetST7" Value="ST7\\RaisonanceTools.config" Removable="1" />
+					<Property Header="ArelocInfo" Value="" Removable="1" />
+																
+				</Section>
+				<Section Header="DebugST7" >
+					<Property Header="DebugTool_STM8" Value="RLINK_STM8" Removable="1" />
+																																																													
+				</Section>
+												
+			</Set>
+			<Set Header="RCST7" >
+				<Section Header="CodeGen" >
+					<Property Header="ENUMTYPE" Value="ET(INT)" Removable="1" />
+					<Property Header="INITSTAT" Value="INITSTATICVAR" Removable="1" />
+																
+				</Section>
+				<Section Header="OPTIM" >
+					<Property Header="OTLEVEL" Value="3" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="MAST7" >
+				<Section Header="Listing" >
+					<Property Header="GenLST" Value="" Removable="1" />
+					<Property Header="GenCOND" Value="" Removable="1" />
+					<Property Header="InclPROG" Value="NOLI" Removable="1" />
+																																		
+				</Section>
+				<Section Header="Set" >
+					<Property Header="More" Value="MODESTM8" Removable="1" />
+																																																				
+				</Section>
+																										
+			</Set>
+			<Set Header="RLST7" >
+				<Section Header="More" >
+					<Property Header="More" Value="rmun" Removable="1" />
+																									
+				</Section>
+																			
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

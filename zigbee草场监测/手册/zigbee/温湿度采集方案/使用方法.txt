@@ -1,0 +1,7 @@
+请安装IAR for STM8 V1.30于C盘默认路径
+然后将此STM8文件夹与C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0\stm8合并
+也就是移完后的工程路径为
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0\stm8\projects\SHT10Sensor
+库文件路径为
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0\stm8\Libraries\STM8L10x_StdPeriph_Driver
+注意请使用我们附带的库，官方库有很多BUG无法使用！
